@@ -138,6 +138,10 @@ function smoothScroll (duration) {
 	    }
 	});
 }
+const currentYear = new Date().getFullYear();
+        
+        // Display the year in the HTML
+        document.getElementById('year').textContent = currentYear;
 
 $(function() {
 	smoothScroll(300);
